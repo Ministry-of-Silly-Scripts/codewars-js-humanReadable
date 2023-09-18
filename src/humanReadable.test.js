@@ -18,4 +18,8 @@ describe('humanReadable', () => {
   it('should return 00:00:59 for input equal to 59', () => {
     expect(humanReadable(59)).toBe('00:00:59');
   });
+
+  it('should return 00:01:00 for input equal to 60', () => {
+    expect(humanReadable(60)).toBe('00:01:00');
+  });
 });

@@ -40,3 +40,5 @@ You can find some examples in the test fixtures.
 - seconds conversion
   - it should return 00:00:30 for input equal to 30 ✅
   - it should return 00:00:59 for input equal to 59 ✅
+- minutes conversion
+  - it should return 00:01:00 for input equal to 60 ✅
