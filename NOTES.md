@@ -45,3 +45,4 @@ You can find some examples in the test fixtures.
   - it should return 00:59:59 for input equal to 3599 ✅
 - hours conversion
   - it should return 01:00:00 for input equal to 3600 ✅
+  - it should return 99:59:59 for input equal to 359999 ✅

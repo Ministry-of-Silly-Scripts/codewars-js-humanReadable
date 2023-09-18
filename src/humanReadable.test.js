@@ -30,4 +30,8 @@ describe('humanReadable', () => {
   it('should return 01:00:00 for input equal to 3600', () => {
     expect(humanReadable(3600)).toBe('01:00:00');
   });
+
+  it('should return 99:59:59 for input equal to 359999', () => {
+    expect(humanReadable(359999)).toBe('99:59:59');
+  });
 });
