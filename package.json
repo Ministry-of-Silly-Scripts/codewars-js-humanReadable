@@ -1,0 +1,29 @@
+{
+  "name": "humanreadable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll --coverage=true --verbose",
+    "prettier:verify": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "eslint:verify": "eslint .",
+    "eslint:fix": "eslint --cache --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jest": "^27.4.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "jest": "^29.7.0",
+    "jshint": "^2.13.6",
+    "prettier": "^3.0.3"
+  }
+}
