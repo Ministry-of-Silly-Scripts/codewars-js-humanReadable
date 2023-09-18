@@ -37,3 +37,5 @@ You can find some examples in the test fixtures.
 - backlog
 - perform the 'canary' test just to check if the structure works ✅
 - it should return 00:00:00 for input equal to 0 
+- seconds conversion
+  - it should return 00:00:30 for input equal to 30 
