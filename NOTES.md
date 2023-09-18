@@ -17,8 +17,6 @@ You can find some examples in the test fixtures.
 - human-readable format (`HH:MM:SS`)
 - Maximum time 359999 seconds
 
-## Rules
-
 ## Backlog
 
 ## Legend
@@ -37,4 +35,4 @@ You can find some examples in the test fixtures.
   - update code/test files ✅
 - domain description ✅
 - backlog
-- perform the 'canary' test just to check if the structure works
+- perform the 'canary' test just to check if the structure works ✅

@@ -1,6 +1,6 @@
 const humanReadable = require('./humanReadable');
 
-describe('the kata name canary spec', () => {
+describe('the humanReadable canary spec', () => {
   it('shows the infrastructure works', () => {
     expect(true).toBe(true);
   });
