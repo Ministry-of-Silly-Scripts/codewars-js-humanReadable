@@ -1,7 +1,7 @@
 {
   "name": "humanreadable",
   "version": "1.0.0",
-  "description": "",
+  "description": "Human Readable Time kata from Code Wars",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
