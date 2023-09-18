@@ -13,6 +13,10 @@ You can find some examples in the test fixtures.
 
 ## Domain
 
+- non-negative integer (seconds)
+- human-readable format (`HH:MM:SS`)
+- Maximum time 359999 seconds
+
 ## Rules
 
 ## Backlog
@@ -31,6 +35,6 @@ You can find some examples in the test fixtures.
   - update NOTES ✅
   - update package.json ✅
   - update code/test files ✅
-- domain description 
+- domain description ✅
 - backlog
 - perform the 'canary' test just to check if the structure works
